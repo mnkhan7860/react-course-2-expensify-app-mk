@@ -1,0 +1,15 @@
+// Web-pack is using this babel file to transpile react / modern features to vanilla 
+
+{
+    "presets": [
+        "env", 
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+    ],
+    "test": [
+        "jest"
+    ]
+}
